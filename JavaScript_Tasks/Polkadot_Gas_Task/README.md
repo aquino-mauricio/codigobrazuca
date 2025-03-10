@@ -9,14 +9,14 @@ poderá inserir os dados da transação e obter o custo estimado do gas em tempo
 disso, sua missão será implementar os desafios e melhorias propostos, elevando a 
 funcionalidade da aplicação e tornando-a ainda mais completa e dinâmica. 
 
-**Funcionalidades do Projeto:** 
+**Funcionalidades do Projeto:**   
 • O formulário permite ao usuário inserir o valor da transação em DOT e selecionar a 
-complexidade da transação. 
+complexidade da transação.  
 • O sistema calcula o preço estimado do gas com base em uma regra simples: transações 
 de baixa complexidade têm uma taxa menor, enquanto transações de alta 
-complexidade têm um custo de gas maior. 
+complexidade têm um custo de gas maior.   
 • O resultado é exibido na tela com o valor da transação, a complexidade escolhida e o 
-custo total do gas.
+custo total do gas.  
 
 
 **Melhorias e Desafios :** 
