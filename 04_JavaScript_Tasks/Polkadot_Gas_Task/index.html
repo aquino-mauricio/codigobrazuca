@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Preço de Gas - Polkadot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>    
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">CódigoBrazuca Polkadot</div>
+            <ul class="nav-links">
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Platform</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Use Cases</a></li>
+            </ul>
+            <button class="btn-primary">JOIN THE COMMUNITY</button>
+        </nav>        
+        <div id="contador" class="contador">Transações simuladas: 0</div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Defy What's Possible</h1>
+            <p>Polkadot unites the world’s innovators and changemakers, building and using the most transformative apps and blockchains.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">JOIN THE COMMUNITY</button>
+                <button class="btn-secondary">START BUILDING</button>
+            </div>
+        </div>
+    </section>
+    
+    <div class="container">
+        <main>
+            <form id="gas-form" class="card">
+                <h2>Simulador de Preço de Gas</h2>
+                <label for="valor-transacao">Valor da Transação (DOT):</label>
+                <input type="number" id="valor-transacao" required>
+
+                <label for="complexidade">Complexidade da Transação:</label>
+                <select id="complexidade" required>
+                    <option value="baixa">Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+
+                <label for="moeda">Moeda de Conversão:</label>
+                <select id="moeda">
+                    <option value="DOT">DOT</option>
+                    <option value="USDT">USDT</option>
+                </select>
+
+                <button type="button" id="calcular" class="btn-primary">Calcular Preço do Gas</button>
+            </form>
+
+            <div id="resultado" class="card"></div>
+
+            <section class="historico">
+                <h2>Histórico de Transações</h2>
+                <ul id="historico"></ul>
+            </section>
+        </main>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Mauricio Aquino e CódigoBrazuca Polkadot.</p>
+        <ul class="footer-links">
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Serviço</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
