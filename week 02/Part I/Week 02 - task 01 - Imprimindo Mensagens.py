@@ -1,1 +1,0 @@
-print("Olá Mundo, me chamo Mauricio Aquino. \nSou natural de Tapes, Rio Grande do Sul.")
