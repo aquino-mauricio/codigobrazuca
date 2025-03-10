@@ -1,5 +1,5 @@
-#Projeto Prático do Curso de JavaScript CodigoBrazuca
-##Simulador de Preço de Gas na Polkadot 
+#Projeto Prático do Curso de JavaScript CodigoBrazuca#  
+##Simulador de Preço de Gas na Polkadot## 
 
 **Objetivo:** 
 Desenvolver uma aplicação web interativa que permita ao usuário calcular o custo de "gas" 
